@@ -37,6 +37,6 @@ export EMBREE_DIR=`pwd`
 
 ![](images/image1.png)
 
-4. `cargo build && cargo test`, then copy `libembree3.3.13.4.dylib`, `libembree3.3.dylib` and `libembree3.dylib` to `./target/debug` or `./target/release`
+4. `cargo build && cargo run`, then copy `libembree3.3.13.4.dylib`, `libembree3.3.dylib` and `libembree3.dylib` to `./target/debug` or `./target/release`
 
-5. try `cargo build` again.
+5. try `cargo run` again.
